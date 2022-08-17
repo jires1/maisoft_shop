@@ -1,0 +1,23 @@
+{
+  "name": "maisoft_shop",
+  "version": "1.0.0",
+  "description": "Réalisation d'une API d'ecommerce pour maisoft",
+  "main": "index.js",
+  "author": "jires",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js",
+    "lint": "eslint .",
+    "pretty": "prettier --write ."
+  },
+  "devDependencies": {
+    "eslint": "^8.22.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
